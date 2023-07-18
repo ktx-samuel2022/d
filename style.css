@@ -1,0 +1,70 @@
+.dddd{
+    animation-name:sll;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    background-color:  red;
+}
+.bt{
+    
+    float: right;
+}
+.btnt{
+    float: left;
+}
+
+
+@keyframes sll {
+    10%{
+        background-color:  red;
+    }
+    25%{
+        background-color:  rgba(2, 2, 137, 0.764);
+    }
+    50%{
+        background-color:  lime;
+    }
+    75%{
+        background-color:  magenta;
+    }
+}
+    
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 18px;
+    text-shadow: -20px 2px 10px green;
+    text-align: center;
+    width:100%;
+    padding: 20px;
+    background-color:greenyellow ;
+}
+.header{
+    font-family:'Bebas Neue' ,cursive;
+    color:rgb(6, 128, 87);
+    text-shadow: -20px 2px 10px ;
+    animation-name:sla;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    background-color:  rgb(0, 255, 106);
+}
+@keyframes sla {
+    10%{
+        background-color:  rgb(77, 255, 0);
+    }
+    25%{
+        background-color:  rgba(2, 137, 54, 0.764);
+    }
+    50%{
+        background-color:  rgb(149, 255, 0);
+    }
+    75%{
+        background-color:  rgb(34, 255, 0);
+    }
+}
+canvas{
+    background-color:rgb(0, 0, 0);
+    border-color: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
